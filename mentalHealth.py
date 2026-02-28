@@ -20,11 +20,11 @@ warnings.filterwarnings("ignore")
 
 # %%
 data1 = pd.read_csv(
-    "/Users/estherdokumensah/MSC DATA SCIENCE/DSCD/group_b12/1- mental-illnesses-prevalence.csv")
+    "/1- mental-illnesses-prevalence.csv")
 data2 = pd.read_csv(
-    "/Users/estherdokumensah/MSC DATA SCIENCE/DSCD/group_b12/2- burden-disease-from-each-mental-illness(1).csv")
+    "/2- burden-disease-from-each-mental-illness(1).csv")
 data4 = pd.read_csv(
-    "/Users/estherdokumensah/MSC DATA SCIENCE/DSCD/group_b12/4- adult-population-covered-in-primary-data-on-the-prevalence-of-mental-illnesses.csv")
+    "/4- adult-population-covered-in-primary-data-on-the-prevalence-of-mental-illnesses.csv")
 
 # %%
 print(data1.head())
